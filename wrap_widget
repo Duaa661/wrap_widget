@@ -1,0 +1,45 @@
+body:Container(
+        width: double.infinity,
+        height: double.infinity,
+        child: Wrap(
+          direction: Axis.vertical,
+          runSpacing: 41,
+          alignment: WrapAlignment.spaceAround,
+          children: [
+            Container(
+              width: 150,
+              height:150,
+              color:Colors.orange,
+            ),
+            Container(
+              width: 150,
+              height:150,
+              color:Colors.yellow,
+            ),
+            Container(
+              width: 150,
+              height:150,
+              color:Colors.red,
+            ),
+            Container(
+              width: 150,
+              height:150,
+              color:Colors.blue,
+            ),
+            Container(
+              width: 150,
+              height:150,
+              color:Colors.blueGrey,
+            ),
+            Container(
+              width: 150,
+              height:150,
+              color:Colors.black,
+            ),
+          ],
+        ),
+      ),
+
+    );
+  }
+}
